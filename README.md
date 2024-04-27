@@ -2,6 +2,7 @@
 ## Prueba Técnica
 
 ***notas***
+coleccion de Postman dentro del repo
 
 DB_CONNECTION : sqlite
 
