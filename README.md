@@ -31,6 +31,9 @@ Los eventos estan cargados como seeders
 
 ***Test Unitarios***
 
+php artisan test --testsuite=Unit
+
+
 Hay un test por cada ruta, siendo estos
 
 - Realizamos una solicitud GET a la ruta /events y esperamos un código de estado 200 y la estructura JSON esperada.
