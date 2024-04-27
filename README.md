@@ -1,6 +1,10 @@
 
 ## Prueba Técnica
 
+evidencias en video:
+https://www.youtube.com/watch?v=Tu5ISd9Hx_Q
+
+
 ***notas***
 coleccion de Postman dentro del repo
 
