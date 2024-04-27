@@ -2,8 +2,11 @@
 ## Prueba Técnica
 
 ***notas***
+
 DB_CONNECTION : sqlite
+
 Laravel v11.5.0 (PHP v8.2.12)
+
 Se concideran solo 2 modelos : event y purchase
 
 ***Event***
@@ -11,6 +14,7 @@ Se concideran solo 2 modelos : event y purchase
 - /event GET Obtiene la información completo del evento
 
 ***Purchase***
+
 -/purchase POST Crea la compra de un un ticket para un cliente
 -/orders GET Lista todas las compras de un cliente
 
