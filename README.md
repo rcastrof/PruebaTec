@@ -6,13 +6,30 @@ https://www.youtube.com/watch?v=Tu5ISd9Hx_Q
 
 
 ***notas***
+
 coleccion de Postman dentro del repo
 
 DB_CONNECTION : sqlite
 
 Laravel v11.5.0 (PHP v8.2.12)
 
-Se concideran solo 2 modelos : event y purchase
+Se concideran solo 2 modelos : event y purchase.
+
+1) git clone
+2) composer install
+3) php artisan migrate:fresh --seed
+4) aceptar crear base de datos
+5) php artisan serve
+6) IMPORTAR coleccion postman a postman
+7) recorrer urls
+8) kill terminal y test unitarios
+9) php artisan test --testsuite=Unit
+
+***Factorys***
+
+php artisan migrate:fresh --seed
+
+Los ***eventos*** estan cargados como seeders, son 10 aprox, asi no tenemos que crear ni editar.
 
 ***Event***
 - /events GET Obtiene el listado de eventos disponibles, con la información más relevante del evento ()
@@ -23,11 +40,6 @@ Se concideran solo 2 modelos : event y purchase
 - /purchase POST Crea la compra de un un ticket para un cliente
 
 - /orders GET Lista todas las compras de un cliente
-
-***Factorys***
-
-php artisan migrate:fresh --seed
-Los eventos estan cargados como seeders 
 
 ***Test Unitarios***
 
